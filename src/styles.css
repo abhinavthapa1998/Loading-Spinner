@@ -20,14 +20,27 @@
   height: 100%;
   border-radius: 50%;
   border: 15px solid transparent;
+  mix-blend-mode: overlay;
+  animation: rotate var(--duration) var(--timing) infinite;
 }
 
 .spinner-sector-red {
   border-top-color: lightcoral;
+  --duration: 1.5s;
+  --timing: ease-in-out;
 }
 .spinner-sector-blue {
   border-left-color: lightblue;
 }
 .spinner-sector-green {
   border-right-color: lightgreen;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
