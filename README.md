@@ -1,2 +1,2 @@
 # Loading-Spinner
-Created with CodeSandbox
+### Complex and Simple Loading Spinners
