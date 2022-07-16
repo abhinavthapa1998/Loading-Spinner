@@ -9,6 +9,7 @@ export default function App() {
         <div className="spinner-sector spinner-sector-red"></div>
         <div className="spinner-sector spinner-sector-blue"></div>
         <div className="spinner-sector spinner-sector-green"></div>
+        <div className="spinner-sector spinner-sector-teal"></div>
       </div>
       {/* SECOND SPINNER */}
       <div className="spinner-2">Loading</div>

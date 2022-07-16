@@ -41,6 +41,11 @@
   --duration: 2.5s;
   --timing: ease-out;
 }
+.spinner-sector-teal {
+  border-right-color: teal;
+  --duration: 3s;
+  --timing: ease-out;
+}
 
 @keyframes rotate {
   0% {
