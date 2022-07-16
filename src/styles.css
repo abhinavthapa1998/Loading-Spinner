@@ -31,9 +31,13 @@
 }
 .spinner-sector-blue {
   border-left-color: lightblue;
+  --duration: 2s;
+  --timing: ease-in;
 }
 .spinner-sector-green {
   border-right-color: lightgreen;
+  --duration: 2.5s;
+  --timing: ease-out;
 }
 
 @keyframes rotate {
