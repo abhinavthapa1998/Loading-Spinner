@@ -12,6 +12,7 @@
   font-size: 2rem;
   overflow: hidden;
   position: relative;
+  animation: text-color 2s ease-in-out infinite alternate;
 }
 
 .spinner-sector {
@@ -22,6 +23,7 @@
   border: 15px solid transparent;
   mix-blend-mode: overlay;
   animation: rotate var(--duration) var(--timing) infinite;
+  pointer-events: none;
 }
 
 .spinner-sector-red {
@@ -46,5 +48,17 @@
   }
   100% {
     transform: rotate(360deg);
+  }
+}
+
+@keyframes text-color {
+  0% {
+    color: rgba(0, 0, 0, 1);
+  }
+  50% {
+    color: rgba(0, 0, 0, 0.5);
+  }
+  100% {
+    color: rgba(0, 0, 0, 0.1);
   }
 }
