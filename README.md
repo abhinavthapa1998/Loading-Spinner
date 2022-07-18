@@ -1,2 +1,2 @@
 # Loading-Spinner
-### Complex and Simple Loading Spinners
+#### Complex and Simple Loading Spinners
